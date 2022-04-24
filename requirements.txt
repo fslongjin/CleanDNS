@@ -1,0 +1,4 @@
+dnspython
+dnslib
+requests
+requests-toolbelt

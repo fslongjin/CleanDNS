@@ -1,5 +1,5 @@
-import config_parser
-import log
+import utils.config_parser
+import utils.log
 
 import os
 
