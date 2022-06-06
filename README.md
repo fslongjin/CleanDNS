@@ -24,11 +24,7 @@ CleanDNS使用了DoH来访问公共DNS服务器，DoH是基于Https的dns请求�
 
 ## 如何使用？
 
-首先，修改config.ini，将其中的local_dns_port设置为53
-
-然后，在系统设置中将dns服务器设置为127.0.0.1
-
-接着根据系统的区别，执行以下命令：
+首先，根据系统的区别，执行以下命令：
 
 ### Windows
 
@@ -48,6 +44,10 @@ pip install -r requirements.txt
 sudo su root
 python main.py
 ```
+接着修改config.ini，将其中的local_dns_port设置为53
+
+然后，在系统设置中将dns服务器设置为127.0.0.1
+
 
 ## 免责声明
 
